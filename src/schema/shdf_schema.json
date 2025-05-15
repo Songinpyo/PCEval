@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Standardized Hardware Description Format (SHDF)",
+  "description": "A platform-independent format for describing Arduino hardware circuits",
+  "type": "object",
+  "required": ["components", "connections"],
+  "properties": {
+    "components": {
+      "type": "array",
+      "description": "List of hardware components in the circuit",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/component"
+      }
+    },
+    "connections": {
+      "type": "array",
+      "description": "List of connections between components",
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "string",
+          "description": "Connection endpoint (component.pin, breadboard.position, or special values)"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional metadata about the circuit",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the circuit"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the circuit"
+        },
+        "author": {
+          "type": "string",
+          "description": "Author of the circuit"
+        },
+        "created": {
+          "type": "string",
+          "description": "Creation date of the circuit",
+          "format": "date-time"
+        },
+        "modified": {
+          "type": "string",
+          "description": "Last modification date of the circuit",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "component": {
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the component"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of the component"
+        },
+        "properties": {
+          "type": "object",
+          "description": "Component-specific properties",
+          "properties": {
+            "color": {
+              "type": "string",
+              "description": "Color of the component",
+              "enum": ["red", "green", "blue", "yellow", "white", "orange", "purple", "lime", "limegreen"]
+            },
+            "value": {
+              "type": "string",
+              "description": "Value of the component (for resistors, capacitors)"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "type": { "const": "resistor" } }
+          },
+          "then": {
+            "properties": {
+              "properties": {
+                "required": ["value"]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

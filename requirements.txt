@@ -1,0 +1,6 @@
+pyyaml
+tqdm
+jsonschema
+requests
+tree-sitter-cpp==0.21.0
+codebleu==0.7.0

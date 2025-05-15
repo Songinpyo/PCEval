@@ -1,0 +1,25 @@
+.pio
+*.bak
+results/*
+*.original
+
+# common
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+__pycache__/*
+
+results/*
+backup/*
+log/*
+experiments/*
+
+.idea
+
+wokwi-cli/*
+
+src/temp/*

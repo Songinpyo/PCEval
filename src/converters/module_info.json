@@ -1,0 +1,1847 @@
+[
+    {
+        "shdf_type": "Breadboard",
+        "wokwi_type": "wokwi-breadboard",
+        "shdf_type_aliases": [
+            "bread board",
+            "bread-board"
+        ]
+    },
+    {
+        "shdf_type": "Push Button",
+        "wokwi_type": "wokwi-pushbutton",
+        "pins": [
+            {
+                "pin_name": "1.l",
+                "description": "First contact (left)",
+                "pin_aliases": [
+                    "pin1.l",
+                    "pin1.left",
+                    "1.l",
+                    "1.left"
+                ]
+            },
+            {
+                "pin_name": "1.r",
+                "description": "First contact (right)",
+                "pin_aliases": [
+                    "pin1.r",
+                    "pin1.right",
+                    "1.r",
+                    "1.right"
+                ]
+            },
+            {
+                "pin_name": "2.l",
+                "description": "Second contact (left)",
+                "pin_aliases": [
+                    "pin2.l",
+                    "pin2.left",
+                    "2.l",
+                    "2.left"
+                ]
+            },
+            {
+                "pin_name": "2.r",
+                "description": "Second contact (right)",
+                "pin_aliases": [
+                    "pin2.r",
+                    "pin2.right",
+                    "2.r",
+                    "2.right"
+                ]
+            }
+        ],
+        "description": "When the button is not pressed, 1.l is connected to 1.r, and 2.l is connected to 2.r. When the button is pressed, 1.l is connected to 2.r, and 1.r is connected to 2.l.",
+        "shdf_type_aliases": [
+            "push button",
+            "push-button",
+            "button",
+            "pushbutton",
+            "pushbutton switch",
+            "push-button switch"
+        ]
+    },
+    {
+        "shdf_type": "LED",
+        "wokwi_type": "wokwi-led",
+        "pins": [
+            {
+                "pin_name": "A",
+                "description": "Anode (positive pin)",
+                "pin_aliases": [
+                    "positive",
+                    "+",
+                    "anode"
+                ]
+            },
+            {
+                "pin_name": "C",
+                "description": "Cathode (negative pin)",
+                "pin_aliases": [
+                    "negative",
+                    "-",
+                    "cathode"
+                ]
+            }
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "RGB LED",
+        "wokwi_type": "wokwi-rgb-led",
+        "pins": [
+            {
+                "pin_name": "R",
+                "description": "Red LED",
+                "pin_aliases": [
+                    "r",
+                    "red",
+                    "cathode_r",
+                    "cathodeR",
+                    "pinR",
+                    "Rpin",
+                    "redPin",
+                    "pinRed",
+                    "r_pin",
+                    "pin_r",
+                    "anode_r",
+                    "anodeR"
+                ]
+            },
+            {
+                "pin_name": "G",
+                "description": "Green LED",
+                "pin_aliases": [
+                    "g",
+                    "green",
+                    "cathode_g",
+                    "cathodeG",
+                    "pinG",
+                    "Gpin",
+                    "greenPin",
+                    "pinGreen",
+                    "g_pin",
+                    "pin_g",
+                    "anode_g",
+                    "anodeG"
+                ]
+            },
+            {
+                "pin_name": "B",
+                "description": "Blue LED",
+                "pin_aliases": [
+                    "b",
+                    "blue",
+                    "cathode_b",
+                    "cathodeB",
+                    "pinB",
+                    "Bpin",
+                    "bluePin",
+                    "pinBlue",
+                    "b_pin",
+                    "pin_b",
+                    "anode_b",
+                    "anodeB"
+                ]
+            },
+            {
+                "pin_name": "COM",
+                "description": "Common pin",
+                "pin_aliases": [
+                    "com",
+                    "common",
+                    "common pin",
+                    "commonpin",
+                    "common anode",
+                    "common cathode",
+                    "anode",
+                    "cathode",
+                    "compin"
+                ]
+            }
+        ],
+        "description": "",
+        "shdf_type_aliases": [
+            "rgb-led",
+            "rgbled",
+            "rgb_led",
+            "led rgb",
+            "led_rgb"
+        ]
+    },
+    {
+        "shdf_type": "Piezoelectric buzzer",
+        "wokwi_type": "wokwi-buzzer",
+        "pins": [
+            {
+                "pin_name": "1",
+                "description": "Negative(Black) pin",
+                "pin_aliases": [
+                    "d1",
+                    "negative",
+                    "pin1",
+                    "cathode"
+                ]
+            },
+            {
+                "pin_name": "2",
+                "description": "Positive(Red) pin",
+                "pin_aliases": [
+                    "d2",
+                    "positive",
+                    "pin2",
+                    "anode"
+                ]
+            }
+        ],
+        "description": "",
+        "shdf_type_aliases": [
+            "piezoelectric buzzer",
+            "piezoelectric-buzzer",
+            "piezo electric buzzer",
+            "piezo buzzer",
+            "piezo-buzzer",
+            "piezo",
+            "buzzer"
+        ]
+    },
+    {
+        "shdf_type": "Servo Motor",
+        "wokwi_type": "wokwi-servo",
+        "pins": [
+            {
+                "pin_name": "PWM",
+                "description": "Servo control signal",
+                "pin_aliases": [
+                    "signal",
+                    "sig",
+                    "signalpin"
+                ]
+            },
+            {
+                "pin_name": "V+",
+                "description": "Positive voltage (5V)",
+                "pin_aliases": [
+                    "vcc",
+                    "power supply",
+                    "voltage supply"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "servo"
+        ],
+        "description": "You can move the horn from 0 to 180 degrees by giving an analog signal to the PWM pin."
+    },
+    {
+        "shdf_type": "resistor",
+        "wokwi_type": "wokwi-resistor",
+        "pins": [
+            {
+                "pin_name": "1",
+                "description": "First pin",
+                "pin_aliases": [
+                    "pin1",
+                    "1",
+                    "end1"
+                ]
+            },
+            {
+                "pin_name": "2",
+                "description": "Second pin",
+                "pin_aliases": [
+                    "pin2",
+                    "2",
+                    "end2"
+                ]
+            }
+        ],
+        "description": "You can change the resistance value in ohms with attributes, for example: {'value': '220'}"
+    },
+    {
+        "shdf_type": "Arduino Uno",
+        "wokwi_type": "wokwi-arduino-uno",
+        "pins": [
+            {
+                "pin_name": "0",
+                "description": "Digital GPIO, Serial RX (USART)",
+                "pin_aliases": [
+                    "pin0",
+                    "dig0",
+                    "digital0",
+                    "digitalpin0",
+                    "d0"
+                ]
+            },
+            {
+                "pin_name": "1",
+                "description": "Digital GPIO, Serial TX (USART)",
+                "pin_aliases": [
+                    "pin1",
+                    "dig1",
+                    "digital1",
+                    "1",
+                    "d1",
+                    "digitalpin1"
+                ]
+            },
+            {
+                "pin_name": "2",
+                "description": "Digital GPIO, External interrupt INT0",
+                "pin_aliases": [
+                    "pin2",
+                    "dig2",
+                    "digital2",
+                    "2",
+                    "d2",
+                    "digitalpin2"
+                ]
+            },
+            {
+                "pin_name": "3",
+                "description": "Digital GPIO, External interrupt INT1",
+                "pin_aliases": [
+                    "pin3",
+                    "dig3",
+                    "digital3",
+                    "3",
+                    "d3",
+                    "digitalpin3"
+                ]
+            },
+            {
+                "pin_name": "4",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin4",
+                    "dig4",
+                    "digital4",
+                    "4",
+                    "d4",
+                    "digitalpin4"
+                ]
+            },
+            {
+                "pin_name": "5",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin5",
+                    "dig5",
+                    "digital5",
+                    "5",
+                    "d5",
+                    "digitalpin5"
+                ]
+            },
+            {
+                "pin_name": "6",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin6",
+                    "dig6",
+                    "digital6",
+                    "6",
+                    "d6",
+                    "digitalpin6"
+                ]
+            },
+            {
+                "pin_name": "7",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin7",
+                    "dig7",
+                    "digital7",
+                    "7",
+                    "d7",
+                    "digitalpin7"
+                ]
+            },
+            {
+                "pin_name": "8",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin8",
+                    "dig8",
+                    "digital8",
+                    "8",
+                    "d8",
+                    "digitalpin8"
+                ]
+            },
+            {
+                "pin_name": "9",
+                "description": "Digital GPIO",
+                "pin_aliases": [
+                    "pin9",
+                    "dig9",
+                    "digital9",
+                    "9",
+                    "d9",
+                    "digitalpin9"
+                ]
+            },
+            {
+                "pin_name": "10",
+                "description": "Digital GPIO, SPI SS (Chip select)",
+                "pin_aliases": [
+                    "pin10",
+                    "dig10",
+                    "digital10",
+                    "10",
+                    "d10",
+                    "digitalpin10"
+                ]
+            },
+            {
+                "pin_name": "11",
+                "description": "Digital GPIO, SPI MOSI",
+                "pin_aliases": [
+                    "pin11",
+                    "dig11",
+                    "digital11",
+                    "11",
+                    "d11",
+                    "digitalpin11"
+                ]
+            },
+            {
+                "pin_name": "12",
+                "description": "Digital GPIO, SPI MISO",
+                "pin_aliases": [
+                    "pin12",
+                    "dig12",
+                    "digital12",
+                    "12",
+                    "d12",
+                    "digitalpin12"
+                ]
+            },
+            {
+                "pin_name": "13",
+                "description": "Digital GPIO, SPI SCLK (Clock)",
+                "pin_aliases": [
+                    "pin13",
+                    "dig13",
+                    "digital13",
+                    "13",
+                    "d13",
+                    "digitalpin13"
+                ]
+            },
+            {
+                "pin_name": "A0",
+                "description": "Analog input, Digital GPIO",
+                "pin_aliases": [
+                    "a0",
+                    "analog0",
+                    "pinA0",
+                    "0"
+                ]
+            },
+            {
+                "pin_name": "A1",
+                "description": "Analog input, Digital GPIO",
+                "pin_aliases": [
+                    "a1",
+                    "analog1",
+                    "pinA1",
+                    "1"
+                ]
+            },
+            {
+                "pin_name": "A2",
+                "description": "Analog input, Digital GPIO",
+                "pin_aliases": [
+                    "a2",
+                    "analog2",
+                    "pinA2",
+                    "2"
+                ]
+            },
+            {
+                "pin_name": "A3",
+                "description": "Analog input, Digital GPIO",
+                "pin_aliases": [
+                    "a3",
+                    "analog3",
+                    "pinA3",
+                    "3"
+                ]
+            },
+            {
+                "pin_name": "A4",
+                "description": "Analog input, Digital GPIO, I2C SDA (Data)",
+                "pin_aliases": [
+                    "a4",
+                    "analog4",
+                    "pinA4",
+                    "4"
+                ]
+            },
+            {
+                "pin_name": "A5",
+                "description": "Analog input, Digital GPIO, I2C SCL (Clock)",
+                "pin_aliases": [
+                    "a5",
+                    "analog5",
+                    "pinA5",
+                    "5"
+                ]
+            },
+            {
+                "pin_name": "GND.1",
+                "description": "Ground pin next to pin 13",
+                "pin_aliases": [
+                    "gnd1",
+                    "gnd",
+                    "gnd_1",
+                    "pin_gnd1",
+                    "pin_gnd"
+                ]
+            },
+            {
+                "pin_name": "GND.2",
+                "description": "Ground pin at the bottom of the board",
+                "pin_aliases": [
+                    "gnd2",
+                    "gnd_2",
+                    "pin_gnd2"
+                ]
+            },
+            {
+                "pin_name": "GND.3",
+                "description": "Ground pin at the bottom of the board",
+                "pin_aliases": [
+                    "gnd3",
+                    "gnd_3",
+                    "pin_gnd3"
+                ]
+            },
+            {
+                "pin_name": "VIN",
+                "description": "Positive power supply",
+                "pin_aliases": [
+                    "vin",
+                    "pinvin"
+                ]
+            },
+            {
+                "pin_name": "5V",
+                "description": "Positive power supply",
+                "pin_aliases": [
+                    "vcc",
+                    "power",
+                    "5v",
+                    "power supply",
+                    "voltage supply",
+                    "pin5v",
+                    "pinvcc"
+                ]
+            },
+            {
+                "pin_name": "3.3V",
+                "description": "Positive power supply",
+                "pin_aliases": [
+                    "3.3v"
+                ]
+            }
+        ],
+        "description": "",
+        "shdf_type_aliases": [
+            "arduino-uno",
+            "arduinouno",
+            "arduino_uno",
+            "arduino",
+            "arduino uno"
+        ]
+    },
+    {
+        "shdf_type": "Bar graph LED",
+        "wokwi_type": "wokwi-led-bar-graph",
+        "pins": [
+            {
+                "pin_name": "A1",
+                "description": "Anode (positive pin) of LED 1",
+                "pin_aliases": [
+                    "anode1",
+                    "anodepin1"
+                ]
+            },
+            {
+                "pin_name": "C1",
+                "description": "Cathode (negative pin) of LED 1",
+                "pin_aliases": [
+                    "cathode1",
+                    "cathodepin1"
+                ]
+            },
+            {
+                "pin_name": "A2",
+                "description": "Anode (positive pin) of LED 2",
+                "pin_aliases": [
+                    "anode2",
+                    "anodepin2"
+                ]
+            },
+            {
+                "pin_name": "C2",
+                "description": "Cathode (negative pin) of LED 2",
+                "pin_aliases": [
+                    "cathode2",
+                    "cathodepin2"
+                ]
+            },
+            {
+                "pin_name": "A3",
+                "description": "Anode (positive pin) of LED 3",
+                "pin_aliases": [
+                    "anode3",
+                    "anodepin3"
+                ]
+            },
+            {
+                "pin_name": "C3",
+                "description": "Cathode (negative pin) of LED 3",
+                "pin_aliases": [
+                    "cathode3",
+                    "cathodepin3"
+                ]
+            },
+            {
+                "pin_name": "A4",
+                "description": "Anode (positive pin) of LED 4",
+                "pin_aliases": [
+                    "anode4",
+                    "anodepin4"
+                ]
+            },
+            {
+                "pin_name": "C4",
+                "description": "Cathode (negative pin) of LED 4",
+                "pin_aliases": [
+                    "cathode4",
+                    "cathodepin4"
+                ]
+            },
+            {
+                "pin_name": "A5",
+                "description": "Anode (positive pin) of LED 5",
+                "pin_aliases": [
+                    "anode5",
+                    "anodepin5"
+                ]
+            },
+            {
+                "pin_name": "C5",
+                "description": "Cathode (negative pin) of LED 5",
+                "pin_aliases": [
+                    "cathode5",
+                    "cathodepin5"
+                ]
+            },
+            {
+                "pin_name": "A6",
+                "description": "Anode (positive pin) of LED 6",
+                "pin_aliases": [
+                    "anode6",
+                    "anodepin6"
+                ]
+            },
+            {
+                "pin_name": "C6",
+                "description": "Cathode (negative pin) of LED 6",
+                "pin_aliases": [
+                    "cathode6",
+                    "cathodepin6"
+                ]
+            },
+            {
+                "pin_name": "A7",
+                "description": "Anode (positive pin) of LED 7",
+                "pin_aliases": [
+                    "anode7",
+                    "anodepin7"
+                ]
+            },
+            {
+                "pin_name": "C7",
+                "description": "Cathode (negative pin) of LED 7",
+                "pin_aliases": [
+                    "cathode7",
+                    "cathodepin7"
+                ]
+            },
+            {
+                "pin_name": "A8",
+                "description": "Anode (positive pin) of LED 8",
+                "pin_aliases": [
+                    "anode8",
+                    "anodepin8"
+                ]
+            },
+            {
+                "pin_name": "C8",
+                "description": "Cathode (negative pin) of LED 8",
+                "pin_aliases": [
+                    "cathode8",
+                    "cathodepin8"
+                ]
+            },
+            {
+                "pin_name": "A9",
+                "description": "Anode (positive pin) of LED 9",
+                "pin_aliases": [
+                    "anode9",
+                    "anodepin9"
+                ]
+            },
+            {
+                "pin_name": "C9",
+                "description": "Cathode (negative pin) of LED 9",
+                "pin_aliases": [
+                    "cathode9",
+                    "cathodepin9"
+                ]
+            },
+            {
+                "pin_name": "A10",
+                "description": "Anode (positive pin) of LED 10",
+                "pin_aliases": [
+                    "anode10",
+                    "anodepin10"
+                ]
+            },
+            {
+                "pin_name": "C10",
+                "description": "Cathode (negative pin) of LED 10",
+                "pin_aliases": [
+                    "cathode10",
+                    "cathodepin10"
+                ]
+            }
+        ],
+        "description": "",
+        "shdf_type_aliases": [
+            "led bar graph",
+            "led-bar graph",
+            "led-bar-graph",
+            "bar led graph",
+            "bar-led graph",
+            "bar-led-graph",
+            "bar graph led",
+            "bar led",
+            "bar-led",
+            "graph led",
+            "bargraphled",
+            "graph bar led",
+            "10-segment bar graph led",
+            "10-segment led bar graph",
+            "bargraph led",
+            "10-segment bar led",
+            "10 segment bar graph led"
+        ]
+    },
+    {
+        "shdf_type": "7-segment display",
+        "wokwi_type": "wokwi-7segment",
+        "pins": [
+            {
+                "pin_name": "A",
+                "description": "Top segment",
+                "pin_aliases": [
+                    "segA",
+                    "segmentA",
+                    "pinA"
+                ]
+            },
+            {
+                "pin_name": "B",
+                "description": "Top-right segment",
+                "pin_aliases": [
+                    "segB",
+                    "segmentB",
+                    "pinB"
+                ]
+            },
+            {
+                "pin_name": "C",
+                "description": "Bottom-right segment",
+                "pin_aliases": [
+                    "segC",
+                    "segmentC",
+                    "pinC"
+                ]
+            },
+            {
+                "pin_name": "D",
+                "description": "Bottom segment",
+                "pin_aliases": [
+                    "segD",
+                    "segmentD",
+                    "pinD"
+                ]
+            },
+            {
+                "pin_name": "E",
+                "description": "Bottom-left segment",
+                "pin_aliases": [
+                    "segE",
+                    "segmentE",
+                    "pinE"
+                ]
+            },
+            {
+                "pin_name": "F",
+                "description": "Top-left segment",
+                "pin_aliases": [
+                    "segF",
+                    "segmentF",
+                    "pinF"
+                ]
+            },
+            {
+                "pin_name": "G",
+                "description": "Middle segment",
+                "pin_aliases": [
+                    "segG",
+                    "segmentG",
+                    "pinG"
+                ]
+            },
+            {
+                "pin_name": "DP",
+                "description": "Dot LED",
+                "pin_aliases": [
+                    "segDP",
+                    "segmentDP",
+                    "pinDP"
+                ]
+            },
+            {
+                "pin_name": "COM.1",
+                "description": "Common pin at the top of the display",
+                "pin_aliases": [
+                    "com1",
+                    "common1",
+                    "common",
+                    "com",
+                    "commonAnode",
+                    "commonCathode",
+                    "anode",
+                    "cathode",
+                    "commonpin",
+                    "common_anode",
+                    "common_cathode"
+                ]
+            },
+            {
+                "pin_name": "COM.2",
+                "description": "Common pin at the bottom of the display",
+                "pin_aliases": [
+                    "com2",
+                    "common2"
+                ]
+            },
+            {
+                "pin_name": "DIG1",
+                "description": "Digit 1 pin",
+                "pin_aliases": [
+                    "digit1"
+                ]
+            },
+            {
+                "pin_name": "DIG2",
+                "description": "Digit 2 pin",
+                "pin_aliases": [
+                    "digit2"
+                ]
+            },
+            {
+                "pin_name": "DIG3",
+                "description": "Digit 3 pin",
+                "pin_aliases": [
+                    "digit3"
+                ]
+            },
+            {
+                "pin_name": "DIG4",
+                "description": "Digit 4 pin",
+                "pin_aliases": [
+                    "digit4"
+                ]
+            },
+            {
+                "pin_name": "CLN",
+                "description": "Colon pin",
+                "pin_aliases": [
+                    "colon"
+                ]
+            }
+        ],
+        "description": "This is one digit 7-segment display.",
+        "shdf_type_aliases": [
+            "7-segment display",
+            "7segment display",
+            "7 segment display",
+            "seven segment display",
+            "seven-segment display",
+            "1-digit 7-segment display"
+        ]
+    },
+    {
+        "shdf_type": "4-digit 7-segment display",
+        "wokwi_type": "4-digit wokwi-7segment",
+        "pins": [
+            {
+                "pin_name": "A",
+                "description": "Top segment",
+                "pin_aliases": [
+                    "segA",
+                    "segmentA"
+                ]
+            },
+            {
+                "pin_name": "B",
+                "description": "Top-right segment",
+                "pin_aliases": [
+                    "segB",
+                    "segmentB"
+                ]
+            },
+            {
+                "pin_name": "C",
+                "description": "Bottom-right segment",
+                "pin_aliases": [
+                    "segC",
+                    "segmentC"
+                ]
+            },
+            {
+                "pin_name": "D",
+                "description": "Bottom segment",
+                "pin_aliases": [
+                    "segD",
+                    "segmentD"
+                ]
+            },
+            {
+                "pin_name": "E",
+                "description": "Bottom-left segment",
+                "pin_aliases": [
+                    "segE",
+                    "segmentE"
+                ]
+            },
+            {
+                "pin_name": "F",
+                "description": "Top-left segment",
+                "pin_aliases": [
+                    "segF",
+                    "segmentF"
+                ]
+            },
+            {
+                "pin_name": "G",
+                "description": "Middle segment",
+                "pin_aliases": [
+                    "segG",
+                    "segmentG"
+                ]
+            },
+            {
+                "pin_name": "DP",
+                "description": "Dot LED",
+                "pin_aliases": [
+                    "segDP",
+                    "segmentDP"
+                ]
+            },
+            {
+                "pin_name": "COM.1",
+                "description": "Common pin at the top of the display",
+                "pin_aliases": [
+                    "com1",
+                    "common1",
+                    "common",
+                    "com",
+                    "commonAnode",
+                    "commonpin",
+                    "common pin",
+                    "common_anode",
+                    "common_cathode"
+                ]
+            },
+            {
+                "pin_name": "COM.2",
+                "description": "Common pin at the bottom of the display",
+                "pin_aliases": [
+                    "com2",
+                    "common2"
+                ]
+            },
+            {
+                "pin_name": "DIG1",
+                "description": "Digit 1 pin",
+                "pin_aliases": [
+                    "digit1"
+                ]
+            },
+            {
+                "pin_name": "DIG2",
+                "description": "Digit 2 pin",
+                "pin_aliases": [
+                    "digit2"
+                ]
+            },
+            {
+                "pin_name": "DIG3",
+                "description": "Digit 3 pin",
+                "pin_aliases": [
+                    "digit3"
+                ]
+            },
+            {
+                "pin_name": "DIG4",
+                "description": "Digit 4 pin",
+                "pin_aliases": [
+                    "digit4"
+                ]
+            },
+            {
+                "pin_name": "CLN",
+                "description": "Colon pin",
+                "pin_aliases": [
+                    "colon"
+                ]
+            }
+        ],
+        "description": "This is 4 digit 7-segment display.",
+        "shdf_type_aliases": [
+            "4 digit 7-segment display",
+            "4 digit 7segment display",
+            "4 digit 7 segment display",
+            "4 digit seven segment display",
+            "4 digit seven-segment display",
+            "4-digit 7-segment display",
+            "4-digit 7segment display",
+            "4-digit 7 segment display",
+            "4-digit seven segment display",
+            "4-digit seven-segment display",
+            "four digit 7-segment display",
+            "four digit 7segment display",
+            "four digit 7 segment display",
+            "four digit seven segment display",
+            "four digit seven-segment display",
+            "4digit 7-segment display",
+            "4digit 7segment display",
+            "4digit 7 segment display",
+            "4digit seven segment display",
+            "4digit seven-segment display",
+            "four-digit 7-segment display",
+            "four-digit 7segment display",
+            "four-digit 7 segment display",
+            "four-digit seven segment display",
+            "four-digit seven-segment display"
+        ]
+    },
+    {
+        "shdf_type": "Potentiometer",
+        "wokwi_type": "wokwi-potentiometer",
+        "pins": [
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground",
+                    "anode"
+                ]
+            },
+            {
+                "pin_name": "SIG",
+                "description": "Output, connect to an analog input pin",
+                "pin_aliases": [
+                    "data",
+                    "out",
+                    "output",
+                    "signal"
+                ]
+            },
+            {
+                "pin_name": "VCC",
+                "description": "Supply voltage",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply"
+                ]
+            }
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "Ultrasonic Distance Sensor",
+        "wokwi_type": "wokwi-hc-sr04",
+        "pins": [
+            {
+                "pin_name": "VCC",
+                "description": "Voltage supply (5V)",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply"
+                ]
+            },
+            {
+                "pin_name": "TRIG",
+                "description": "Pulse to start the measurement",
+                "pin_aliases": [
+                    "trig"
+                ]
+            },
+            {
+                "pin_name": "ECHO",
+                "description": "Measure the high pulse length to get the distance",
+                "pin_aliases": [
+                    "echo"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "hc-sr04 ultrasonic distance sensor",
+            "distance sensor",
+            "hc-sr04",
+            "hc-sr04 distance sensor",
+            "hc sr04",
+            "ultrasonic sensor",
+            "hc-sr04 sensor",
+            "hc-sr04 ultrasonic sensor",
+            "ultrasonic distance sensor hc-sr04",
+            "ultrasonic distance sensor (hc-sr04)"
+        ],
+        "description": "Divide the pulse time by 58 to get the distance in centimeters, or by 148 to get it in inches."
+    },
+    {
+        "shdf_type": "Negative temperature coefficient thermistor",
+        "wokwi_type": "wokwi-ntc-temperature-sensor",
+        "pins": [
+            {
+                "pin_name": "VCC",
+                "description": "Positive power supply",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply"
+                ]
+            },
+            {
+                "pin_name": "OUT",
+                "description": "Output signal (analog)",
+                "pin_aliases": [
+                    "sig",
+                    "signal",
+                    "output"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "ntc thermistor",
+            "ntc sensor",
+            "ntc",
+            "thermistor",
+            "temperature sensor",
+            "ntc temperature sensor",
+            "analog temperature sensor"
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "Photoresistor",
+        "wokwi_type": "wokwi-photoresistor-sensor",
+        "pins": [
+            {
+                "pin_name": "VCC",
+                "description": "Positive power supply",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground",
+                    "gnd",
+                    "v-"
+                ]
+            },
+            {
+                "pin_name": "DO",
+                "description": "Digital output",
+                "pin_aliases": [
+                    "digital output"
+                ]
+            },
+            {
+                "pin_name": "AO",
+                "description": "Analog output",
+                "pin_aliases": [
+                    "analog output"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "photoresistor sensor module",
+            "photoresistor sensor",
+            "photoresistor module",
+            "4-pin photoresistor sensor module"
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "MPU6050 6-axis Accel & Gyro Sensor",
+        "wokwi_type": "wokwi-mpu6050",
+        "pins": [
+            {
+                "pin_name": "VCC",
+                "description": "Voltage supply",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply",
+                    "power"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            },
+            {
+                "pin_name": "SCL",
+                "description": "I2C clock line",
+                "pin_aliases": [
+                    "clock",
+                    "clock line"
+                ]
+            },
+            {
+                "pin_name": "SDA",
+                "description": "I2C data line",
+                "pin_aliases": [
+                    "data",
+                    "data line"
+                ]
+            },
+            {
+                "pin_name": "XDA",
+                "description": "Unused"
+            },
+            {
+                "pin_name": "XCL",
+                "description": "Unused"
+            },
+            {
+                "pin_name": "AD0",
+                "description": "Address select pin",
+                "pin_aliases": [
+                    "address"
+                ]
+            },
+            {
+                "pin_name": "INT",
+                "description": "Interrupt",
+                "pin_aliases": [
+                    "interrupt"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "mpu6050",
+            "accel and gyro sensor",
+            "gyrosensor",
+            "gyro sensor",
+            "accelerometer",
+            "gyroscope",
+            "mpu6050 sensor",
+            "mpu6050 module",
+            "accel & gyro sensor",
+            "mpu6050 accelerometer",
+            "mpu6050 gyrosensor",
+            "mpu6050 accelerometer/gyro sensor",
+            "mpu6050 accelerometer+gyro",
+            "mpu6050 accelerometer & gyro sensor",
+            "mpu6050 accelerometer & gyro module",
+            "mpu6050 accelerometer/gyro module",
+            "mpu6050 gyroscope/accelerometer",
+            "mpu6050 gyroscope/accelerometer module",
+            "mpu6050 gyro/accelerometer",
+            "mpu6050 gyro/accelerometer module",
+            "mpu6050 gyroscope",
+            "mpu6050 accelerometer/gyro",
+            "mpu6050 6-axis accelerometer/gyro",
+            "mpu6050 accelerometer and gyro",
+            "mpu6050 accelerometer & gyro",
+            "mpu6050 accelerometer/gyroscope",
+            "mpu6050 6-axis accelerometer & gyro sensor",
+            "mpu6050 accelerometer & gyroscope sensor",
+            "mpu6050 accelerometer & gyroscope",
+            "mpu6050 accelerometer/gyroscope sensor",
+            "mpu6050 gyroscope/accelerometer sensor",
+            "mpu6050 accelerometer and gyroscope",
+            "mpu6050 6-axis sensor",
+            "mpu6050 accelerometer & gyro module",
+            "mpu6050 6-axis accelerometer",
+            "mpu6050 gyroscope sensor",
+            "mpu6050 6-axis accelerometer and gyro module",
+            "mpu6050 accelerometer and gyroscope module",
+            "mpu6050 gyro & accelerometer sensor",
+            "mpu6050 gyroscope module",
+            "mpu6050 accelerometer and gyro module",
+            "mpu6050 6-axis gyroscope sensor",
+            "mpu6050 accelerometer & gyroscope module",
+            "mpu6050 6-axis accelerometer & gyroscope",
+            "mpu6050 (gyroscope)",
+            "mpu6050 6-axis accelerometer and gyroscope",
+            "mpu6050 gyroscope & accelerometer"
+        ],
+        "description": "Since the MPU6050 uses I2C communication, connect the SDA pin to A4 and the SCL pin to A5."
+    },
+    {
+        "shdf_type": "RTC module",
+        "wokwi_type": "wokwi-ds1307",
+        "pins": [
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            },
+            {
+                "pin_name": "5V",
+                "description": "Positive voltage (5V)",
+                "pin_aliases": [
+                    "5v",
+                    "power supply",
+                    "voltage supply",
+                    "VCC"
+                ]
+            },
+            {
+                "pin_name": "SDA",
+                "description": "I2C data line",
+                "pin_aliases": [
+                    "data",
+                    "data line"
+                ]
+            },
+            {
+                "pin_name": "SCL",
+                "description": "I2C clock line",
+                "pin_aliases": [
+                    "clock",
+                    "clock line"
+                ]
+            },
+            {
+                "pin_name": "SQW",
+                "description": "Square wave output.",
+                "pin_aliases": [
+                    "square wave output"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "rtc sensor",
+            "rtc",
+            "real time clock module",
+            "ds1307 real time clock module",
+            "ds1307",
+            "rtc module ds1307",
+            "rtc ds1307",
+            "rtc_ds1307",
+            "rtc ds1307 module",
+            "ds1307 module",
+            "rtc module (ds1307)",
+            "ds1307 rtc module",
+            "rtc_ds1307 module",
+            "real-time clock",
+            "real time clock (rtc)"
+        ],
+        "description": "Since the RTC module uses I2C communication, connect the SDA pin to A4 and the SCL pin to A5."
+    },
+    {
+        "shdf_type": "Analog Multiplexer",
+        "wokwi_type": "board-cd74hc4067",
+        "pins": [
+            {
+                "pin_name": "COM",
+                "description": "Signal pin for reading or writing analog/digital values",
+                "pin_aliases": [
+                    "signal",
+                    "I/O pin",
+                    "signal pin",
+                    "common pin",
+                    "common",
+                    "sig"
+                ]
+            },
+            {
+                "pin_name": "S0",
+                "description": "Selection pin 0 for choosing input/output channel",
+                "pin_aliases": [
+                    "select 0",
+                    "channel select 0"
+                ]
+            },
+            {
+                "pin_name": "S1",
+                "description": "Selection pin 1 for choosing input/output channel",
+                "pin_aliases": [
+                    "select 1",
+                    "channel select 1"
+                ]
+            },
+            {
+                "pin_name": "S2",
+                "description": "Selection pin 2 for choosing input/output channel",
+                "pin_aliases": [
+                    "select 2",
+                    "channel select 2"
+                ]
+            },
+            {
+                "pin_name": "S3",
+                "description": "Selection pin 3 for choosing input/output channel",
+                "pin_aliases": [
+                    "select 3",
+                    "channel select 3"
+                ]
+            },
+            {
+                "pin_name": "EN",
+                "description": "Enable pin (active LOW)",
+                "pin_aliases": [
+                    "enable",
+                    "enable pin"
+                ]
+            },
+            {
+                "pin_name": "VCC",
+                "description": "Power supply (typically 5V or 3.3V)",
+                "pin_aliases": [
+                    "5v",
+                    "3.3v",
+                    "voltage supply",
+                    "power supply",
+                    "VCC"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground connection",
+                "pin_aliases": [
+                    "ground",
+                    "GND"
+                ]
+            },
+            {
+                "pin_name": "I0",
+                "description": "Channel 0 for input/output",
+                "pin_aliases": [
+                    "channel 0",
+                    "COM0",
+                    "CH0",
+                    "C0",
+                    "in0"
+                ]
+            },
+            {
+                "pin_name": "I1",
+                "description": "Channel 1 for input/output",
+                "pin_aliases": [
+                    "channel 1",
+                    "COM1",
+                    "CH1",
+                    "C1",
+                    "in1"
+                ]
+            },
+            {
+                "pin_name": "I2",
+                "description": "Channel 2 for input/output",
+                "pin_aliases": [
+                    "channel 2",
+                    "COM2",
+                    "CH2",
+                    "C2",
+                    "in2"
+                ]
+            },
+            {
+                "pin_name": "I3",
+                "description": "Channel 3 for input/output",
+                "pin_aliases": [
+                    "channel 3",
+                    "COM3",
+                    "CH3",
+                    "C3",
+                    "in3"
+                ]
+            },
+            {
+                "pin_name": "I4",
+                "description": "Channel 4 for input/output",
+                "pin_aliases": [
+                    "channel 4",
+                    "COM4",
+                    "CH4",
+                    "C4",
+                    "in4"
+                ]
+            },
+            {
+                "pin_name": "I5",
+                "description": "Channel 5 for input/output",
+                "pin_aliases": [
+                    "channel 5",
+                    "COM5",
+                    "CH5",
+                    "C5",
+                    "in5"
+                ]
+            },
+            {
+                "pin_name": "I6",
+                "description": "Channel 6 for input/output",
+                "pin_aliases": [
+                    "channel 6",
+                    "COM6",
+                    "CH6",
+                    "C6",
+                    "in6"
+                ]
+            },
+            {
+                "pin_name": "I7",
+                "description": "Channel 7 for input/output",
+                "pin_aliases": [
+                    "channel 7",
+                    "COM7",
+                    "CH7",
+                    "C7",
+                    "in7"
+                ]
+            },
+            {
+                "pin_name": "I8",
+                "description": "Channel 8 for input/output",
+                "pin_aliases": [
+                    "channel 8",
+                    "COM8",
+                    "CH8",
+                    "C8",
+                    "in8"
+                ]
+            },
+            {
+                "pin_name": "I9",
+                "description": "Channel 9 for input/output",
+                "pin_aliases": [
+                    "channel 9",
+                    "COM9",
+                    "CH9",
+                    "C9",
+                    "in9"
+                ]
+            },
+            {
+                "pin_name": "I10",
+                "description": "Channel 10 for input/output",
+                "pin_aliases": [
+                    "channel 10",
+                    "COM10",
+                    "CH10",
+                    "C10",
+                    "in10"
+                ]
+            },
+            {
+                "pin_name": "I11",
+                "description": "Channel 11 for input/output",
+                "pin_aliases": [
+                    "channel 11",
+                    "COM11",
+                    "CH11",
+                    "C11",
+                    "in11"
+                ]
+            },
+            {
+                "pin_name": "I12",
+                "description": "Channel 12 for input/output",
+                "pin_aliases": [
+                    "channel 12",
+                    "COM12",
+                    "CH12",
+                    "C12",
+                    "in12"
+                ]
+            },
+            {
+                "pin_name": "I13",
+                "description": "Channel 13 for input/output",
+                "pin_aliases": [
+                    "channel 13",
+                    "COM13",
+                    "CH13",
+                    "C13",
+                    "in13"
+                ]
+            },
+            {
+                "pin_name": "I14",
+                "description": "Channel 14 for input/output",
+                "pin_aliases": [
+                    "channel 14",
+                    "COM14",
+                    "CH14",
+                    "C14",
+                    "in14"
+                ]
+            },
+            {
+                "pin_name": "I15",
+                "description": "Channel 15 for input/output",
+                "pin_aliases": [
+                    "channel 15",
+                    "COM15",
+                    "CH15",
+                    "C15",
+                    "in15"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "16 channel analog multiplexer",
+            "16-channel analog multiplexer",
+            "16 channel multiplexer",
+            "16-channel multiplexer",
+            "multiplexer",
+            "CD74HC4067",
+            "CD74HC4067 multiplexer",
+            "CD74HC4067 analog multiplexer",
+            "CD74HC4067 board",
+            "74hc4067 16-channel analog multiplexer",
+            "16-channel analog multiplexer/demultiplexer",
+            "analog multiplexer (74hc4067)",
+            "16-channel analog multiplexer (cd74hc4067)",
+            "analog multiplexer 16-channel",
+            "analog multiplexer cd74hc4067",
+            "74hc4067 analog multiplexer"
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "DHT22 sensor",
+        "wokwi_type": "wokwi-dht22",
+        "pins": [
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground"
+                ]
+            },
+            {
+                "pin_name": "VCC",
+                "description": "Positive voltage",
+                "pin_aliases": [
+                    "power supply",
+                    "voltage supply",
+                    "5v"
+                ]
+            },
+            {
+                "pin_name": "SDA",
+                "description": "Digital data pin",
+                "pin_aliases": [
+                    "data",
+                    "data pin",
+                    "digital data pin",
+                    "input pin",
+                    "datapin"
+                ]
+            },
+            {
+                "pin_name": "NC",
+                "description": "Not connected",
+                "pin_aliases": [
+                    "not connected"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "digital humidity temperature sensor",
+            "digital temperature humidity sensor",
+            "digital humidity and temperature sensor",
+            "dht sensor",
+            "humidity sensor",
+            "dht22",
+            "dht22 sensor",
+            "digital humidity temperature 22",
+            "dht22 temperature and humidity sensor",
+            "dht22 temperature/humidity sensor",
+            "dht22 humidity/temperature sensor",
+            "dht22 temperature & humidity sensor",
+            "dht22 humidity & temperature sensor",
+            "dht22 temperature sensor",
+            "dht22 humidity sensor",
+            "dht22 humidity and temperature sensor",
+            "dht22 (humidity sensor)",
+            "dht22 (digital humidity & temperature sensor)",
+            "dht22 (temperature sensor)"
+        ],
+        "description": ""
+    },
+    {
+        "shdf_type": "Ili9341 LCD Display",
+        "wokwi_type": "wokwi-ili9341",
+        "pins": [
+            {
+                "pin_name": "VCC",
+                "description": "Supply voltage",
+                "pin_aliases": [
+                    "power supply",
+                    "voltage supply",
+                    "5v",
+                    "led power",
+                    "pins.vcc"
+                ]
+            },
+            {
+                "pin_name": "GND",
+                "description": "Ground",
+                "pin_aliases": [
+                    "ground",
+                    "pins.gnd"
+                ]
+            },
+            {
+                "pin_name": "CS",
+                "description": "Chip select",
+                "pin_aliases": [
+                    "chip select",
+                    "cs pin",
+                    "select",
+                    "pinCS",
+                    "pins.cs"
+                ]
+            },
+            {
+                "pin_name": "RST",
+                "description": "Reset pin",
+                "pin_aliases": [
+                    "reset",
+                    "reset pin",
+                    "pinRST",
+                    "pins.rst"
+                ]
+            },
+            {
+                "pin_name": "D/C",
+                "description": "Data/command selection pin",
+                "pin_aliases": [
+                    "dc",
+                    "data/command",
+                    "register select",
+                    "data_command",
+                    "pins.dc"
+                ]
+            },
+            {
+                "pin_name": "MOSI",
+                "description": "SPI data (MCU → LCD)",
+                "pin_aliases": [
+                    "spi data",
+                    "mosi",
+                    "data output",
+                    "pins.mosi"
+                ]
+            },
+            {
+                "pin_name": "SCK",
+                "description": "SPI clock",
+                "pin_aliases": [
+                    "clock",
+                    "sck",
+                    "spi clock",
+                    "pins.sck"
+                ]
+            },
+            {
+                "pin_name": "LED",
+                "description": "Backlight LED power",
+                "pin_aliases": [
+                    "backlight",
+                    "led power",
+                    "pins.led"
+                ]
+            },
+            {
+                "pin_name": "MISO",
+                "description": "SPI data (LCD → MCU)",
+                "pin_aliases": [
+                    "spi input",
+                    "miso",
+                    "data in",
+                    "pins.miso"
+                ]
+            }
+        ],
+        "shdf_type_aliases": [
+            "2.8 inch TFT LCD",
+            "ILI9341 screen",
+            "SPI TFT display",
+            "Adafruit ILI9341",
+            "TFT LCD 240x320",
+            "ILI9341 module",
+            "Arduino LCD display",
+            "Color TFT screen",
+            "ILI9341 SPI display",
+            "LCD Display",
+            "ili9341",
+            "ili9341 lcd",
+            "ili9341 tft lcd display",
+            "lcd display (ili9341)"
+        ],
+        "description": ""
+    }
+]
