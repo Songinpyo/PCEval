@@ -1,0 +1,74 @@
+{
+  "name": "wokwi-cli",
+  "version": "0.16.0",
+  "description": "Wokwi Simulator CLI (for CI and local development)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.js",
+    "package": "npm run build && pkg --public -o dist/bin/wokwi-cli -t node20-linuxstatic-arm64,node20-linuxstatic-x64,node20-macos-arm64,node20-macos-x64,node20-win-x64 dist/cli.cjs",
+    "start": "tsx src/main.ts",
+    "lint": "eslint ./src",
+    "test": "npm run lint && vitest --run",
+    "test:watch": "vitest --watch",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "esp32",
+    "stm32",
+    "iot",
+    "embedded",
+    "testing",
+    "ci",
+    "wokwi",
+    "esp-idf",
+    "simulator",
+    "arduino",
+    "platformio",
+    "zephyr",
+    "micropython",
+    "circuitpython"
+  ],
+  "author": "Uri Shaked",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wokwi/wokwi-cli"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@iarna/toml": "2.2.5",
+    "arg": "^5.0.2",
+    "chalk": "^5.3.0",
+    "chalk-template": "^1.1.0",
+    "pngjs": "^7.0.0",
+    "ws": "^8.13.0",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/pngjs": "^6.0.5",
+    "@types/ws": "^8.5.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@yao-pkg/pkg": "^5.11.5",
+    "esbuild": "^0.25.2",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.0",
+    "rimraf": "^5.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.2.2",
+    "vitest": "^3.0.5"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "prettier --write",
+      "eslint"
+    ]
+  }
+}
